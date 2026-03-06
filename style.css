@@ -25,15 +25,35 @@ nav {
 }
 .nav-ul ul {
     display: flex;
-    gap :45px;
+    gap :55px;
+    align-items: center;
 }
 .nav-ul ul li{
     list-style: none;
 }
-.nav-ul ul li {
+
+
+.nav-btn , .nav-btn a{
+    font-weight: bold;
+    background-color: indigo;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 20px;
     text-decoration: none;
+}
+
+.nav-ul-a {
+    border-bottom:none;
+     text-decoration: none;
     font-size: 20px;
     color:#474747;
-   
 }
+
+.nav-ul-a:hover{
+    border-bottom: 3px solid indigo;
+}
+
+
+
+
 
