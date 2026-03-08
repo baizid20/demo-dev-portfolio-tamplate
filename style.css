@@ -25,23 +25,45 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-.nav-ul ul {
+.common-ul {
     display: flex;
     gap :55px;
     align-items: center;
-}
-.nav-ul ul li{
     list-style: none;
 }
 
 
-.nav-btn , .nav-btn a{
+
+
+
+.common-btn{
     font-weight: bold;
     background-color: indigo;
     padding: 12px 20px;
     border-radius: 6px;
     font-size: 20px;
     text-decoration: none;
+    color:white;
+    list-style: none;
+    border:none;
+   
+}
+.contact-btn {
+    background-color: white;
+    color: indigo;
+    border-color: indigo;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contact-btn:hover{
+    background-color: indigo;
+    color:white;
+}
+.common-btn:hover{
+    background-color: rgb(131, 22, 209);
 }
 
 .nav-ul-a {
@@ -54,6 +76,29 @@ nav {
 .nav-ul-a:hover{
     border-bottom: 3px solid indigo;
 }
+
+
+/* nav section ended */
+
+/* banner section start  */
+
+.banner-gretting{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-naming-heading{
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+}
+
+.banner-p-style{
+    font-size: 18px;
+    color:#474747;
+}
+
+/* banner section ended */
 
 
 
