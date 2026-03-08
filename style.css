@@ -81,28 +81,56 @@ nav {
 /* nav section ended */
 
 /* banner section start  */
-
+.banner {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;    
+}
+.banner-image-div{
+    width:40%;
+    height: 100%;
+}
+.banner-image{
+    width: 100%;
+    border-radius: 20px;
+}
+.banner-content{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+   
+  
+}
 .banner-gretting{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 600;
     color: #474747;
+    margin:0px;
 }
 .banner-naming-heading{
-    font-size: 85px;
+    font-size: 65px;
     font-weight: bold;
     color: black;
+    margin:0px;
 }
 
 .banner-p-style{
-    font-size: 20px;
+    font-size: 25px;
     color:#474747;
     font-weight: 500;
-    line-height: 35px;
+    line-height: 48px;
+    margin:0px;
 }
 .zindex{
     color:skyblue;
     font-weight: bold;
 
+}
+.F{
+  font-size: 40px;
+  color:skyblue
 }
 
 /* banner section ended */
