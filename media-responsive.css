@@ -1,0 +1,109 @@
+/* =========================
+   Tablet ( ≤ 992px )
+   ========================= */
+
+@media (max-width: 992px){
+
+.header{
+padding:2rem 5%;
+}
+
+.common-ul{
+gap:2rem;
+}
+
+.banner{
+flex-direction:column;
+text-align:center;
+gap:3rem;
+}
+
+.banner-content{
+align-items:center;
+}
+
+
+
+.banner-naming-heading{
+font-size:4rem;
+}
+
+}
+
+
+/* =========================
+   Mobile ( ≤ 768px )
+   ========================= */
+
+@media (max-width:768px){
+
+nav{
+flex-direction:column;
+gap:2rem;
+align-items:center;
+}
+
+.common-ul{
+gap:1.8rem;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.banner{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.banner-content{
+align-items:center;
+gap:2rem;
+}
+
+.banner-image-div{
+width:75%;
+}
+
+.banner-p-style{
+line-height:1.7;
+}
+
+}
+
+
+/* =========================
+   Small Mobile ( ≤ 576px )
+   ========================= */
+
+@media (max-width:576px){
+
+.header-name-section{
+font-size:2.4rem;
+}
+
+.banner-gretting{
+font-size:2rem;
+}
+
+.banner-naming-heading{
+font-size:3rem;
+}
+
+.banner-p-style{
+font-size:1.6rem;
+line-height:2.6rem;
+}
+
+
+
+.common-btn,
+.contact-btn{
+font-size:1.4rem;
+padding:0.8em 1.6rem;
+}
+
+.common-ul{
+flex-direction:column;
+gap:1.5rem;
+}
+
+}

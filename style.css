@@ -12,24 +12,60 @@
 
 /* font css ended */
 
+/* global css start */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-family:"Open Sans", sans-serif;
+    line-height:1.6;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+/* global css end */
+.container{
+width:100%;
+max-width:100%;
+margin:auto;
+padding:2rem 1rem 1rem 6rem;
+
+}
 .header{
+width:100%;
 background: linear-gradient(90deg, #ffffff 0%, #eef2ff 40%, #c7d2fe 100%);
-padding: 20px 40px 20px 10%;
+padding:2rem 3rem;
+border-radius:10px;
 }
 .header-name-section{
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: bolder;
 }
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+    nav{
+display:flex;
+align-items:center;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:2rem;
 }
-.common-ul {
-    display: flex;
-    gap :55px;
-    align-items: center;
-    list-style: none;
+
+.common-ul{
+display:flex;
+gap:3rem;
+align-items:center;
+list-style:none;
+flex-wrap:wrap;
 }
 
 
@@ -39,13 +75,14 @@ nav {
 .common-btn{
     font-weight: bold;
     background-color: indigo;
-    padding: 12px 20px;
+   padding: 1em 2rem;
     border-radius: 6px;
-    font-size: 20px;
+    font-size: 2rem;
     text-decoration: none;
     color:white;
     list-style: none;
     border:none;
+    cursor: pointer;
    
 }
 .contact-btn {
@@ -53,10 +90,11 @@ nav {
     color: indigo;
     border-color: indigo;
     font-weight: bold;
-    padding: 12px 20px;
+    padding: 1em 3rem;
     border-radius: 6px;
-    font-size: 20px;
+    font-size: 2rem;
     text-decoration: none;
+    cursor:pointer;
 }
 .contact-btn:hover{
     background-color: indigo;
@@ -69,7 +107,7 @@ nav {
 .nav-ul-a {
     border-bottom:none;
      text-decoration: none;
-    font-size: 20px;
+    font-size: 2rem;
     color:#474747;
 }
 
@@ -81,47 +119,51 @@ nav {
 /* nav section ended */
 
 /* banner section start  */
-.banner {
-    display: flex;
-    width:100%;
-    justify-content: space-between;
-    align-items: center;    
+.banner{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+align-items:center;
+gap:4rem;
+margin-top:5%;
 }
+
+
 .banner-image-div{
-    width:40%;
-    height: 100%;
+flex:1 1 350px;
 }
+
 .banner-image{
     width: 100%;
     border-radius: 20px;
 }
+
 .banner-content{
-    width:50%;
-    display: flex;
-    flex-direction: column;
-    gap:35px;
-   
-  
+flex:1 1 500px;
+display:flex;
+flex-direction:column;
+gap:3rem;
 }
+
+
 .banner-gretting{
-    font-size: 35px;
+    font-size: 3rem;
     font-weight: 600;
     color: #474747;
     margin:0px;
 }
 .banner-naming-heading{
-    font-size: 65px;
-    font-weight: bold;
-    color: black;
-    margin:0px;
+font-size:clamp(3rem,5vw,5rem);
 }
 
 .banner-p-style{
-    font-size: 25px;
-    color:#474747;
-    font-weight: 500;
-    line-height: 48px;
-    margin:0px;
+font-size:clamp(1.6rem,2vw,2rem);
+line-height:1.7;
+}
+.banner-btn-group{
+display:flex;
+gap:2rem;
+flex-wrap:wrap;
 }
 .zindex{
     color:skyblue;
@@ -129,8 +171,21 @@ nav {
 
 }
 .F{
-  font-size: 40px;
+  font-size: 3rem;
   color:skyblue
+}
+.banner-image{
+width:100%;
+border-radius:20px;
+object-fit:cover;
+}
+
+.common-btn:active{
+transform:scale(0.97);
+}
+
+.contact-btn:active{
+transform:scale(0.97);
 }
 
 /* banner section ended */
